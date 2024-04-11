@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 import DogList from './DogList';
 import DogDetails from './DogDetails';
@@ -28,7 +28,7 @@ function App({ dogs }) {
       </BrowserRouter>
     </div>
   );
-}
+};
 
 App.defaultProps = {
   dogs: [
@@ -63,6 +63,6 @@ App.defaultProps = {
       ]
     }
   ]
-}
+};
 
 export default App;

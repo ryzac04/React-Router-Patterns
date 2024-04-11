@@ -1,0 +1,19 @@
+.Greeting {
+    background-color: black;
+    color: white;
+    height: 10rem;
+}
+
+.Greeting p {
+    padding-top: 2rem;
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.FormLink {
+    padding-top: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: underline;
+}

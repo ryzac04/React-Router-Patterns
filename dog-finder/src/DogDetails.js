@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import { v4 as uuid } from 'uuid';
+import { v4 as uuid } from "uuid";
 
 
 const DogDetails = ({ dogs }) => {
@@ -24,8 +24,7 @@ const DogDetails = ({ dogs }) => {
                 ))}
             </ul>
         </div>
-    )
-
+    );
 };
 
 export default DogDetails;

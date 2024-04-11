@@ -1,0 +1,33 @@
+.FormContainer {
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    padding: 40px;
+    width: 80vh;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: white;
+}
+
+label, input {
+    display: block;
+    float: left;
+    margin-bottom: 1.5rem;
+}
+
+label {
+    clear: left; 
+    display: block;
+    margin-right: 5px;
+}
+
+button {
+    clear: left;
+    display: block;
+}
+
